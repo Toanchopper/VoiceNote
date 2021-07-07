@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="250dp"
+    android:layout_height="185dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:text="Lựa chọn"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:layout_width="250dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btnnhap"
+        android:text="Nhập ghi chú"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btnmoi"
+        android:text="Ghi chú mới"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_margin="5dp"
+        android:layout_height="50dp"/>
+</LinearLayout>
